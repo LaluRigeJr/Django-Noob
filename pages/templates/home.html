@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<div class="text-center container-md my-5">
+    {% load static %}
+    <img class="d-block mx-auto mb-4 mt-3" src="{% static "avatar.png" %}" width="256" height="256" title="I don't know why this image won't load">
+    <h1 class="display-5 fw-bold">Hi, Aku mahasiswa IBI Kosgoro 1957</h1>
+    <div class="col-lg-6 mx-auto">
+        <p>
+            Website portofolio adalah laman yang bersisi karya, pengalaman, dan keterampilan seseorang atau sebuah perusahaan.
+            <br><br>
+            Website portofolio dapat menjadi alat untuk menarik klien, pelamar pekerjaan, dan membangun merek pribadi.
+        </p>
+    </div>
+</div>
+{% endblock page_content %}
